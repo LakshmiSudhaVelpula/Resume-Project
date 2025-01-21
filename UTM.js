@@ -7,6 +7,6 @@ console.log('UTM Source:', source);
 
 var iframe = document.querySelector('iframe');
 if (iframe) {
-    iframe.src = iframe.src + '?utm_source=' + encodeURIComponent(source || 'DefaultSource');
+    iframe.src = iframe.src + '?utm_source=' + encodeURIComponent(source);
 }
 </script>
